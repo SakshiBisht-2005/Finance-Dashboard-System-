@@ -1,6 +1,6 @@
 # 💰 Finance Dashboard (Flask + SQLite)
 
-A role-based Financial Dashboard web application built using **Flask**, **SQLite**, and **Chart.js**.
+A role-based Financial Dashboard System built using **Flask**,and  **SQLite**.
 
 This project allows users to manage transactions, visualize analytics, and track financial data efficiently.
 
@@ -48,7 +48,6 @@ This project allows users to manage transactions, visualize analytics, and track
 - Backend: Flask (Python)
 - Database: SQLite
 - Frontend: HTML, CSS
-- Charts: Chart.js
 
 ---
 
