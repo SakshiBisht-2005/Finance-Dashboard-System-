@@ -82,7 +82,7 @@ Finance_Dashboard/
 
 ### 1️⃣ Clone Repository
 
-```bash
+```bash```
 git clone https://github.com/your-username/finance-dashboard.git
 cd finance-dashboard
 
@@ -112,6 +112,6 @@ Export to Excel
 Dark/Light Mode Toggle
 User Profile System
 JWT Authentication
-👨‍💻 Author
 
-Sakshi
+👨‍💻 Author
+Sakshi Bisht
