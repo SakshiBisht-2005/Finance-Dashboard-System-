@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="auth-body">
+<div class="container">
+    <h1 style="margin-bottom:10px;">💰 Financial Dashboard</h1>
+    <h2>Login</h2>
+    <p class="msg">{{message}}</p>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+    </form>
+<div class="stats">
+    <div class="stat-box admin">👤 {{admin}} Admin</div>
+    <div class="stat-box analyst">📊 {{analyst}} Analyst</div>
+    <div class="stat-box viewer">👁️ {{viewer}} Viewer</div>
+</div>
+    <p>Don't have an account? <a href="/register">Register</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+/* ================= AUTH PAGES (LOGIN / REGISTER) ================= */
+body { background: #0f172a; font-family: Arial, sans-serif; color: white; margin: 0; }
+.auth-body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Container */
+.auth-body .container {
+    background: #1e293b;
+    padding: 40px 30px;
+    border-radius: 16px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+.auth-body .container:hover {
+    transform: translateY(-5px);
+}
+
+/* Titles */
+.auth-body h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.auth-body h2 {
+    margin-bottom: 20px;
+    color: #cbd5f5;
+}
+
+/* Inputs */
+.auth-body input,
+.auth-body select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #334155;
+    color: white;
+    font-size: 14px;
+}
+
+.auth-body input::placeholder {
+    color: #94a3b8;
+}
+
+/* Button */
+.auth-body button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-body button:hover {
+    opacity: 0.9;
+}
+
+/* Links */
+.auth-body a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.auth-body a:hover {
+    text-decoration: underline;
+}
+
+/* Stats */
+.auth-body .stats {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.auth-body .stat-box {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.auth-body .admin {
+    background: #7c3aed;
+}
+
+.auth-body .analyst {
+    background: #2563eb;
+}
+
+.auth-body .viewer {
+    background: #f59e0b;
+}
+
+/* Message */
+.auth-body .msg {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* ================= DASHBOARD UPGRADE ================= */
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    background: #dc2626;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.income { background: linear-gradient(135deg, #16a34a, #22c55e); }
+.expense { background: linear-gradient(135deg, #dc2626, #ef4444); }
+.balance { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+
+/* Table */
+.table-container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+th {
+    background: #334155;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+}
+
+tr:hover {
+    background: #334155;
+}
+
+/* Action buttons */
+.action-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.delete-btn {
+    background: #dc2626;
+}
+
+.edit-btn {
+    background: #f59e0b;
+}
+
+/* Form */
+.form-container {
+    margin-top: 20px;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form-container input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    background: #334155;
+    color: white;
+}
+
+.form-container button {
+    padding: 10px 15px;
+    background: #22c55e;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+/* ANALYTICS CONTROLS */
+.analytics-controls {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.analytics-controls form {
+    display: flex;
+    gap: 10px;
+}
+
+.analytics-controls input {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: #334155;
+    color: white;
+}

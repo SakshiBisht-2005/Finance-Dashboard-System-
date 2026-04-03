@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="auth-body">
+
+<div class="container">
+    <h2>Update Transaction</h2>
+
+    <form method="POST">
+        <input name="type" value="{{transaction[1]}}" required>
+        <input name="amount" value="{{transaction[2]}}" required>
+        <input name="category" value="{{transaction[3]}}" required>
+        <input name="date" value="{{transaction[4]}}" required>
+
+        <button>Update</button>
+    </form>
+</div>
+
+</body>
+</html>
