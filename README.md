@@ -1,6 +1,6 @@
 # 💰 Finance Dashboard (Flask + SQLite)
 
-A role-based Financial Dashboard System built using **Flask**,and  **SQLite**.
+A role-based Financial Dashboard System built using **Flask**, and  **SQLite**.
 
 This project allows users to manage transactions, visualize analytics, and track financial data efficiently.
 
@@ -36,9 +36,6 @@ This project allows users to manage transactions, visualize analytics, and track
 
 ### 📈 Analytics (Admin & Analyst)
 - 📅 Monthly Filter
-- 📈 Line Chart (Growth Over Time)
-- 📊 Bar Chart (Category Expenses)
-- 🥧 Pie Chart (Expense Distribution)
 - 📋 Data Table
 
 ---
